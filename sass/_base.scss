@@ -1,0 +1,33 @@
+body {
+	color: $color;
+	font: #{$fz}/#{$lh} $family;
+	background: $bgBody;
+	min-width: 320px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 900;
+}
+
+a {
+	font-weight: 700;
+	color: $color;
+	font-size: $lh;
+}
+
+button {
+	text-transform: uppercase;
+	color: $buttonActiveColor;
+	font-weight: 600;
+	font-size: $fzSpan;
+	font-family: "DinTextCondensedPro";
+	letter-spacing: $wsSpan;
+	word-spacing: $wsButton;
+	background: none;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 2px solid $buttonActiveColor;
+}
